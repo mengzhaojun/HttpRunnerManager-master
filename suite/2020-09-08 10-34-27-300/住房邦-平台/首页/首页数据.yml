@@ -1,0 +1,9 @@
+'[{"config": {"name": "\u9996\u9875\u6570\u636e", "request": {"base_url": "http://172.16.62.66/zfb-mgr"}}},
+    {"test": {"request": {"url": "/security/room/data/statistics/dataCenterContract",
+    "method": "POST", "json": {"dateEnum": "DAY", "endTime": "${get_time()}", "startTime":
+    "${get_time(type=4)} 00:00:00", "roomType": "CENTRALIZED", "merchantLongNumber":
+    null}, "headers": {"Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9ucyI6Im51bGwiLCJFTlYiOiJkZXYiLCJleHAiOjE2MDIwMzczNTQsInVzZXIiOiJ7XCJhdmF0YXJcIjpcImh0dHBzOi8vemZiLXBsYXRmb3JtLW1nci5vc3MtY24tc2hlbnpoZW4uYWxpeXVuY3MuY29tL2Rldi8yMDIwLTA2LTE5LzE1OTI1MzIzMjk4NDc4NTgzOTYtZmlsZS5qcGdcIixcImlkXCI6XCIxMjE4MTA1OTg1ODk5OTIxNDA4XCIsXCJpZENhcmRcIjpcIjM3MDg4MzE5ODYwMzI4MDkxNlwiLFwibWVyY2hhbnRJZFwiOlwiMTIxODEwNTk4NTg5OTkyMTQwOVwiLFwibWVyY2hhbnROYW1lXCI6XCLoh7vniLHlhazlr5NcIixcIm1vYmlsZVwiOlwiMTU4MTc0NzgwMzBcIixcInN0YXR1c1wiOjEsXCJ0eXBlXCI6XCJBRE1JTlwiLFwidXNlck5hbWVcIjpcIuenn-aIv-mCpi3lhpvlk6VcIn0ifQ.KTaUd0QmgCVlUWFA3CZrxwtk_oovsDLjjin04lVpO_8"}},
+    "name": "\u9996\u9875\u6570\u636e", "validate": [{"comparator": "equals", "check":
+    "$status", "expected": "C0000"}, {"comparator": "equals", "check": "$message",
+    "expected": "\u5904\u7406\u6210\u529f"}], "extract": [{"status": "content.status"},
+    {"message": "content.message"}]}}]'
