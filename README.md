@@ -1,9 +1,9 @@
-HttpRunnerManager(已停止维护)
+HttpRunnerManager
 =================
 
 Design Philosophy
 -----------------
-
+修改了本地使用token的取值方法！
 基于HttpRunner的接口自动化测试平台: `HttpRunner`_, `djcelery`_ and `Django`_. HttpRunner手册: http://cn.httprunner.org/
 
 Key Features
